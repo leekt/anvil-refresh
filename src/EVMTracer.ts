@@ -22,7 +22,7 @@ interface Level {
     opcodes : {[index: string]:number};
     oog : boolean;
 }
-interface DebugCallResult {
+export interface DebugCallResult {
     calls : DebugCall[];
     numberLevels : Level[];
     keccak : string[];
